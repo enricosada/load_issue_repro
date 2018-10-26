@@ -1,0 +1,9 @@
+version 5.182.0-alpha003
+
+source https://www.nuget.org/api/v2/
+framework: net462
+
+generate_load_scripts: true
+
+nuget Expecto.Hopac 8.4.3
+nuget Expecto.FsCheck 8.4.3

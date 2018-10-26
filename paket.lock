@@ -1,0 +1,20 @@
+GENERATE-LOAD-SCRIPTS: ON
+RESTRICTION: == net462
+NUGET
+  remote: https://www.nuget.org/api/v2
+    Argu (5.1)
+      FSharp.Core (>= 4.0.0.1)
+    Expecto (8.4.3)
+      Argu (>= 5.1)
+      Mono.Cecil (>= 0.10)
+    Expecto.FsCheck (8.4.3)
+      Expecto (>= 8.4.3)
+      FsCheck (>= 2.10.4)
+    Expecto.Hopac (8.4.3)
+      Expecto (>= 8.4.3)
+      Hopac (>= 0.3.23)
+    FsCheck (2.12.1)
+      FSharp.Core (>= 4.0.0.1)
+    FSharp.Core (4.5.2)
+    Hopac (0.4.1)
+    Mono.Cecil (0.10.1)
